@@ -1,0 +1,18 @@
+.title-image {
+}
+
+.login-input-position {
+margin-top: 440px;
+}
+
+.submit-button {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 15px
+}
+
+.center-chat-name {
+    margin-left: 70px;
+}
