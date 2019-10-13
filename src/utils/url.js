@@ -10,6 +10,7 @@ const navigation = {
     about: '/about',
     news: '/news',
     rights: '/rights',
+    faq: '/faq',
 
 };
 

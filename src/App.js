@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Rights from "./pages/Admin/Rights";
 import News from "./pages/Admin/News";
 import Login from "./pages/Admin/Login/Login";
+import Faq from "./pages/Faq";
 
 export default class App extends Component {
     render() {
@@ -22,6 +23,7 @@ export default class App extends Component {
                 <Route path={navigation.about} component={About}/>
                 <Route path={navigation.news} component={News}/>
                 <Route path={navigation.rights} component={Rights}/>
+                <Route path={navigation.faq} component={Faq}/>
                 <Redirect to={navigation.animals}/>
             </Switch>
         </Router>
