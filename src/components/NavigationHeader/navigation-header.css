@@ -37,9 +37,8 @@
     border-bottom: 1px white solid;
 }
 
-.navigation-head-top-list-a:hover {
+a:hover {
     text-decoration: none;
-
 }
 
 .navigation-head-bottom-list-li {

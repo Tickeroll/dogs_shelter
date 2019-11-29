@@ -1,6 +1,22 @@
-.bread-crumbs-active {
-
-}
 .breadcrumb-padding {
-    padding: 50px 0 106px 0;
+    padding: 50px 0 30px 0;
+}
+
+.breadcrumb-main {
+    color: #b1b1b1;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.breadcrumb-main:hover {
+    border-bottom: 1px grey solid;
+    color: #b1b1b1;
+}
+
+.breadcrumb-second {
+}
+
+.breadcrumb-config {
+    margin-right: 5px;
+    font-size: 18px;
 }

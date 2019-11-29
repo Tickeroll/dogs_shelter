@@ -1,0 +1,24 @@
+.my-button {
+    width: 227px;
+    height: 52px;
+    border-radius: 15px;
+    border: 1px solid #e7eaea;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.my-button.large {
+    width: 300px;
+}
+
+.my-button:hover {
+    background-color: #5cb1d7;
+}
+
+.my-button.active {
+    background-color: #5cb1d7;
+}
+
+.my-button-text {
+    font-size: 18px;
+}

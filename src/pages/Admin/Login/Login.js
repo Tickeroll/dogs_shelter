@@ -15,6 +15,7 @@ class Login extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
+        this.props.history.push('/admin/news')
         // this.props.dispatch(login(this.state.login));
     };
 
@@ -27,10 +28,13 @@ class Login extends Component {
                       onSubmit={this.onSubmit}>
                     <FormGroup>
                         <Col mdOffset={4} sm={4}>
+                            Логин
                             <FormControl
                                 required
                                 value={this.state.login}
                                 onChange={e => this.setState({login: e.target.value})}/>
+                                <br/>
+                                Пароль
                             <FormControl
                                 required
                                 type="password"

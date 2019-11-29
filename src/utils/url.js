@@ -4,6 +4,8 @@ import {createBrowserHistory} from 'history';
 const navigation = {
     home: '/',
     admin: '/admin',
+    adminNews: '/admin/news',
+    adminAnimals: '/admin/animals',
     animals: '/animals',
     contact: '/contact',
     events: '/events',
@@ -11,14 +13,16 @@ const navigation = {
     news: '/news',
     rights: '/rights',
     faq: '/faq',
-
 };
+
+const host = 'http://localhost:3000';
+const bd = 'http://localhost:8080';
 
 const client = axios.create({
     credentials: true,
-    baseURL: process.env.REACT_APP_PROXY
+    baseURL: bd
 });
 
 const history = createBrowserHistory({basename: process.env.PUBLIC_URL});
 
-export {navigation, client, history};
+export {navigation, host, client, history};
