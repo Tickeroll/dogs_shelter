@@ -1,0 +1,47 @@
+.faq1{
+    text-align: center;
+}
+/* скрываем чекбоксы и блоки с содержанием */
+.hide {
+    display: none;
+}
+.hide + label ~ div{
+    display: none;
+}
+/* оформляем текст label */
+.hide + label {
+    padding: 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: cadetblue;
+    border-bottom: 0;
+    word-wrap: break-word;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block;
+    background: whitesmoke;
+    -moz-box-shadow:  3px 3px 10px #7d8e8f;
+    -webkit-box-shadow:  3px 3px 10px #7d8e8f;
+    box-shadow:  3px 3px 10px #7d8e8f;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* demo контейнер */
+.demo {
+    margin: 5% 10%;
+}
