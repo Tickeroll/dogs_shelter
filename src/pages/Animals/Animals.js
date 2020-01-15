@@ -36,13 +36,24 @@ class Animals extends Component {
 
     getAnimals() {
         requests.animals.animalsGet().then(response => {
-            console.log(1, response)
-            this.setState({animals: response.data})
+            this.setState({animals: response.data.data})
         })
     }
 
+//
+//     birthday: "07.2019"
+//     color: "maroon"
+//     description: "Alice began to cry again. 'You ought to tell them something more. 'You promised to tell him. 'A nice muddle their slates'll be in before the trial's over!' thought Alice. 'Now we shall get on."
+//     gender: 2
+//     id: 1
+//     name: "Ezekiel Nolan"
+//     photo: (2) ["http://localhost/storage/1/Faker.jpeg", "http://localhost/storage/2/Faker.jpeg"]
+//     size: 1
+//     type: 2
+
     render() {
         console.log(2, this.state.animals)
+        const {animals} = this.state;
         return (
             <div>
                 <NavigationHeader/>
@@ -73,11 +84,17 @@ class Animals extends Component {
                     </div>
 
                 </div>
-
-
                 <br/>
                 <div>
-                    {}
+                    {animals.length > 0 && animals.map(animal =>
+                        <div>
+                            <img src={animal.photo[0]} alt={animal.name}/>
+                            <div>
+                                <p>{'Привет, меня зовут ' + animal.name + '.'}</p>
+                                <p>{'Я ' + animal.gender + ', я родился ' + animal.birthday}</p>
+                            </div>
+                        </div>
+                    )}
                 </div>
                 <Button large>Посмотреть ещё животных</Button>
             </div>

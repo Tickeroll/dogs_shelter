@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-import { Editor } from '@tinymce/tinymce-react';
+import {Editor} from '@tinymce/tinymce-react';
+
 class EditorBar extends Component {
-
-
 
     handleEditorChange = (e) => {
     }
@@ -23,9 +22,7 @@ class EditorBar extends Component {
                         'insertdatetime media table paste code'
                     ],
                     toolbar:
-                        'undo redo | formatselect | bold italic backcolor | \
-                        alignleft aligncenter alignright alignjustify | \
-                        bullist numlist outdent indent | removeformat'
+                        'undo redo | formatselect | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | removeformat'
                 }}
                 onChange={this.handleEditorChange}
             />
