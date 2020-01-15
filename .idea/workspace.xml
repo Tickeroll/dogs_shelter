@@ -1,33 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01bb563d-8758-4b53-a0da-5369e14afcfc" name="Default Changelist" comment="header + start breadcrumb">
-      <change afterPath="$PROJECT_DIR$/src/components/Button/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditorBar/EditorBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditorBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminAnimals/AdminAnimals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminAnimals/admin-animals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminAnimals/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminNews/admin-news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Animals/requests/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/requests/index.js" afterDir="false" />
+    <list default="true" id="be063d52-0d67-4a41-a2fa-720a739a8902" name="Default Changelist" comment="КОнтакты добавлено:&#10;Яндекс карта + форма обратной связи&#10;Животные-дропдаун">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AdminNavigation/AdminNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AdminNavigation/AdminNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BreadCrumbs/BreadCrumbs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BreadCrumbs/BreadCrumbs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BreadCrumbs/bread-crumbs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BreadCrumbs/bread-crumbs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationHeader/NavigationHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationHeader/NavigationHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationHeader/navigation-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationHeader/navigation-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Admin/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Admin/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Admin/News/News.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Admin/AdminNews/AdminNews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Admin/News/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Admin/AdminNews/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Admin/News/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Animals/Animals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Animals/Animals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Animals/animals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Animals/animals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/url.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/url.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +32,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ccsss-frontend2" />
@@ -116,12 +92,22 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="01bb563d-8758-4b53-a0da-5369e14afcfc" name="Default Changelist" comment="" />
+      <changelist id="be063d52-0d67-4a41-a2fa-720a739a8902" name="Default Changelist" comment="" />
       <created>1547633961069</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -159,6 +145,8 @@
       <workItem from="1574964665294" duration="83000" />
       <workItem from="1574964763412" duration="5667000" />
       <workItem from="1575047006573" duration="401000" />
+      <workItem from="1578839512029" duration="13239000" />
+      <workItem from="1579108182634" duration="4961000" />
     </task>
     <task id="LOCAL-00001" summary="header + start breadcrumb">
       <created>1570986152827</created>
@@ -167,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570986152827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="КОнтакты добавлено:&#10;Яндекс карта + форма обратной связи&#10;Животные-дропдаун">
+      <created>1579112831050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579112831050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,15 +174,44 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="header + start breadcrumb" />
-    <option name="LAST_COMMIT_MESSAGE" value="header + start breadcrumb" />
+    <MESSAGE value="КОнтакты добавлено:&#10;Яндекс карта + форма обратной связи&#10;Животные-дропдаун" />
+    <option name="LAST_COMMIT_MESSAGE" value="КОнтакты добавлено:&#10;Яндекс карта + форма обратной связи&#10;Животные-дропдаун" />
   </component>
 </project>
