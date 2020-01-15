@@ -1,0 +1,54 @@
+.title{
+
+}
+.text-content
+{
+    text-align:center;
+}
+.back-connect-form{
+    margin:0 auto;
+    max-width:30%;
+    box-sizing:border-box;
+    padding:40px;
+    border-radius:5px;
+    background:RGBA(255,255,255,1);
+    -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+    box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.submit-button{
+    border-radius:3px;
+    border:rgba(0,0,0,.3) 0px solid;
+    padding:10px;
+    background:#90c843;
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size: 16pt;
+    transition:background .4s;
+    cursor:pointer;
+    margin-bottom: 100px;
+
+    }
+
+.textarea {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+
+}
+.ya-map {
+    text-align: center;
+    margin-bottom: 50px
+}
+.mail-style{
+    margin-bottom: 25px;
+}
+.message-style{
+    margin-bottom: 25px;
+}

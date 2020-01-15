@@ -10,9 +10,25 @@ class Animals extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            animals: []
-        }
+            animals: [],
+            flag:false
+        };
+        this.onFocus = this.onFocus.bind(this);
+        this.onBlur = this.onBlur.bind(this);
     }
+
+    onFocus(){
+
+        this.setState({flag:true});
+
+    }
+
+    onBlur(){
+
+        this.setState({flag:false});
+
+    }
+
 
     componentDidMount() {
         this.getAnimals()
@@ -44,14 +60,18 @@ class Animals extends Component {
                 </div>
                 <br/>
                 Copy
-                <div className="dropdown">
-                    <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown button
+                <div className={`dropdown ${this.state.flag===true? 'open': ""}`}>
+                    <button onFocus={this.onFocus} onBlur={this.onBlur} className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                       title="Dropdown button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        dropdown
                     </button>
                     <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <span className="dropdown-item" href="#">Action</span>
+                        <div className="dropdown-item" href="#">Action</div>
+                        <div className="dropdown-item" href="#">ActionTwo</div>
+                        <div className="dropdown-item" href="#">ActionThree</div>
+                        <div className="dropdown-item" href="#">ActionFour</div>
                     </div>
+
                 </div>
 
 

@@ -43,7 +43,7 @@ class NavigationHeader extends Component {
                                         </li>
                                         <li className="navigation-head-bottom-list-li"><a
                                             className="navigation-head-bottom-list-a"
-                                            href="https://yunacenter.ru/contact/"><span
+                                            href="/contact"><span
                                             className="navigation-head-bottom-list-li-text">Контакты</span></a></li>
                                     </ul>
                                 </nav>
