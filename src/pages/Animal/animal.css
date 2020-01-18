@@ -1,0 +1,43 @@
+.animal-right-menu {
+width: 35%;
+    padding: 42px 42px 42px 24px;
+    background: #F8F9F8;
+    font-size: 22px;
+    line-height: 1.09;
+    text-align: left;
+    white-space: normal;
+    height: 400px;
+}
+.animal-right-menu-svg {
+    height: 86px;
+}
+.animal-right-menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.animal-right-menu-text {
+    font-size: 22px;
+    text-align: left;
+    white-space: normal;
+    font-weight: bold;
+    font-family: "Graublau Sans Display", Helvetica, Arial, "sans-serif";
+    line-height: 1;
+}
+
+.animal-first-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.animal-left-menu {
+    width: 45%;
+    padding-right: 50px;
+}
+
+.animal-description {
+    padding-top: 80px;
+
+}
+
+
