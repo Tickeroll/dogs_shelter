@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
 import './navigation-header.css'
+import {navigation, history} from "../../utils/url";
 
 class NavigationHeader extends Component {
+
+    redirect(link) {
+      history.push(link)
+    }
+
     render() {
         return (
             <header className="header">
@@ -14,16 +20,15 @@ class NavigationHeader extends Component {
                                     src="https://yunacenter.ru/wp-content/themes/yuna_theme/img/logo-white.svg" alt=""/></a>
                                 </div>
                                 <nav className="col-lg-10 col navigation-head-nav-position">
-                                    <ul className="navigation-head-display-flex">
+                                    <ul className="display-flex">
                                         <li className="navigation-head-top-list-li">
-                                            <a className="navigation-head-top-list-a"
-                                               href="https://yunacenter.ru/about/"><span
-                                                className="navigation-head-top-list-li-text">О нас</span></a>
+                                            <div className="navigation-head-top-list-a"
+                                               onClick={this.redirect.bind(this, navigation.about)}><span
+                                                className="navigation-head-top-list-li-text">О нас</span></div>
                                         </li>
                                         <li className="navigation-head-top-list-li">
-                                            <a className="navigation-head-top-list-a"
-                                               href="/animals/"><span
-                                                className="navigation-head-top-list-li-text">Наши животные</span></a>
+                                            <div className="navigation-head-top-list-a" onClick={this.redirect.bind(this, navigation.animals)}><span
+                                                className="navigation-head-top-list-li-text">Наши животные</span></div>
                                         </li>
                                         <li className="navigation-head-top-list-li">
                                             <div className="arr"><span
@@ -31,20 +36,20 @@ class NavigationHeader extends Component {
                                             </div>
                                         </li>
                                     </ul>
-                                    <ul className="navigation-head-display-flex">
-                                        <li className="navigation-head-bottom-list-li"><a
+                                    <ul className="display-flex">
+                                        <li className="navigation-head-bottom-list-li"><div
                                             className="navigation-head-bottom-list-a"
-                                            href="https://yunacenter.ru/news/"><span
-                                            className="navigation-head-bottom-list-li-text">Новости</span></a></li>
-                                        <li className="navigation-head-bottom-list-li"><a
+                                            onClick={this.redirect.bind(this, navigation.news)}><span
+                                            className="navigation-head-bottom-list-li-text">Новости</span></div></li>
+                                        <li className="navigation-head-bottom-list-li"><div
                                             className="navigation-head-bottom-list-a"
-                                            href={document.location.href + "faq/"}><span
-                                            className="navigation-head-bottom-list-li-text">Вопрос / ответ</span></a>
+                                            onClick={this.redirect.bind(this, navigation.faq)}><span
+                                            className="navigation-head-bottom-list-li-text">Вопрос / ответ</span></div>
                                         </li>
-                                        <li className="navigation-head-bottom-list-li"><a
+                                        <li className="navigation-head-bottom-list-li"><div
                                             className="navigation-head-bottom-list-a"
-                                            href="https://yunacenter.ru/contact/"><span
-                                            className="navigation-head-bottom-list-li-text">Контакты</span></a></li>
+                                            onClick={this.redirect.bind(this, navigation.contact)}><span
+                                            className="navigation-head-bottom-list-li-text">Контакты</span></div></li>
                                     </ul>
                                 </nav>
                             </div>
